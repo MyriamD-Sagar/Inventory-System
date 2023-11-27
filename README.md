@@ -58,28 +58,27 @@ II. Application
    * instance and static methods
      
   D. Add the following functionalities to the Main form:
+  
+  1. The Parts pane
+  * The Add button under the Parts TableView opens the Add Part form.
+  * The Modify button under the Parts TableView opens the Modify Part form.
+  * The Delete button under the Parts TableView deletes the selected part from the Parts TableView or displays a descriptive error message in the UI or in a dialog box if a part is not deleted.
+  * When the user searches for parts by ID or name (partial or full name) using the text field, the application displays matching results in the Parts TableView. (Including a search button is optional.)
+    If the part or parts are found, the application highlights a single part or filters multiple parts. If the part is not found, the application displays an error message in the UI or in a dialog box.
+  * If the search field is set to empty, the table should be repopulated with all available parts.
 
-    1. The Parts pane
-    
-      * The Add button under the Parts TableView opens the Add Part form.
-      * The Modify button under the Parts TableView opens the Modify Part form.
-      * The Delete button under the Parts TableView deletes the selected part from the Parts TableView or displays a descriptive error message in the UI or in a dialog box if a part is not deleted.
-      * When the user searches for parts by ID or name (partial or full name) using the text field, the application displays matching results in the Parts TableView. (Including a search button is optional.)
-        If the part or parts are found, the application highlights a single part or filters multiple parts. If the part is not found, the application displays an error message in the UI or in a dialog box.
-      * If the search field is set to empty, the table should be repopulated with all available parts.
+  2. The Products pane 
 
-    2. The Products pane 
+  * The Add button under the Products TableView opens the Add Product form.
+  * The Modify button under the Products TableView opens the Modify Product form.
+  * The Delete button under the Products TableView deletes the selected product (if appropriate) from the Products TableView or displays a descriptive error message in the UI or in a dialog box if a product is not deleted.
+  * When the user searches for products by ID or name (partial or full name) using the text field, the application displays matching results in the Products TableView. (Including a search button is optional.) 
+    If a product or products are found, the application highlights a single product or products or filters multiple products. If a product or products are not found, the application displays an error message in the UI or in a dialog box.
+  * If the search field is set to empty, the table should be repopulated with all available products.
 
-      * The Add button under the Products TableView opens the Add Product form.
-      * The Modify button under the Products TableView opens the Modify Product form.
-      * The Delete button under the Products TableView deletes the selected product (if appropriate) from the Products TableView or displays a descriptive error message in the UI or in a dialog box if a product is not deleted.
-      * When the user searches for products by ID or name (partial or full name) using the text field, the application displays matching results in the Products TableView. (Including a search button is optional.) 
-        If a product or products are found, the application highlights a single product or products or filters multiple products. If a product or products are not found, the application displays an error message in the UI or in a dialog box.
-      * If the search field is set to empty, the table should be repopulated with all available products.
-      
-    3. Exit Button
-    
-      * The Exit button closes the application.
+  3. Exit Button
+   
+* The Exit button closes the application.
       
   E. Add the listed functionalities to the following parts forms: 
 
