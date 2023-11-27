@@ -51,7 +51,6 @@ I. User Interface
 II. Application
 
   C. Create classes with data and logic that map to the UML class diagram. Include all the classes and members as shown in the UMLdiagram. Your code should demonstrate the following:
-
      * inheritance
      * abstract and concrete classes
      * instance and static variables
