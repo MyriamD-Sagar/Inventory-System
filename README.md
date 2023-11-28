@@ -3,7 +3,8 @@
 
 The purpose of this application is to create a JavaFX application based on specific business requirements to produce an inventory system for a small manufactoring organization.
 
-This project was completed for the Software I - C482 course at WGU. 
+This project was completed for the Software I - C482 course at WGU.
+
 Students were provided a mock-up of the user interface to use in the design and development of the system and a class diagram to assist in developing the application.
 Solution statements based on the business requirements are outlined in the "Requirements" section, which were used to develop the application.  
 
